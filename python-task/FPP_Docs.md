@@ -47,7 +47,8 @@ class fpp.Listener:
 
     @abstractmethod
     def on_message_received(msg) -> None
-    """This method is called to handle the given message.
+    """
+    This method is called to handle the given message.
     :param msg: the delivered message
     """
 ```
