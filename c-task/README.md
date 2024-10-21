@@ -15,3 +15,7 @@ Implement the necessary instructions in the `app_gnss.c` file to (Insert all the
 ## Bonus
 
 Implement a circular queue as an First-Class ADT through the files `queue.h` and `queue.c`, and instantiate 3 queues for each message of size 10. In addition to printing, store the data in the corresponding queues. In order to get the size of GPGGA_Info_t, GNS_Info_t and GPRMC_Info_t (they are structs), use the function size(). Assume that you can use the heap, so you can use the malloc, free ecc.
+
+
+_Note: your code cannot be tested, but it will be subject of discussion at the
+interview, if you'll pass the task selection._
