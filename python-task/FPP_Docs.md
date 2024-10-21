@@ -6,18 +6,18 @@ The peripheral object will only be used for opening the communication on the
 peripheral.
 
 ```python
-class fpp.Peripheral()
+class fpp.Peripheral:
 
-def __init__(self, device_path):
-    """
-    Construct a new fpp.Peripheral object
+    def __init__(self, device_path):
+        """
+        Construct a new fpp.Peripheral object
 
-    :param device_path: the path corresponding to the peripheral
-    :return: nothing
-    """
+        :param device_path: the path corresponding to the peripheral
+        :return: nothing
+        """
 
-    self.peripheral = self._open_peripheral(device_path)
-    return
+        self.peripheral = self._open_peripheral(device_path)
+        return
 ```
 
 ### Notifier
