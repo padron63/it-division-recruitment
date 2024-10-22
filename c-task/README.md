@@ -12,7 +12,7 @@ Implement the necessary instructions in the `app_gnss.c` file to (Insert all the
 2. Implement `uint32_t getValue(void *args);` to return an 8-bit unsigned integer randomly generated between 0 and the maximum representable by an 8-bit integer (Assume a Big Endian representation and store the 8 bits in the least significant byte).
 3. Implement the following action inside the infinite loop: based on the value of `value`, analyze messages of type GPGGA if the third bit equals 1, otherwise analyze GNS messages if the second bit equals 1, and finally GPRMC messages if the last bit equals 1. Specifically, use the function `GNSSParser_Status_t GNSS_PARSER_ParseMsg(GNSSParser_Data_t *pGNSSParser_Data, uint8_t msg)` for analysis, and then print the result with the function `GNSSParser_Status_t GNSS_PARSER_Print(GNSSParser_Data_t *pGNSSParser_Data, uint8_t msg);`.
 
-## Bonus
+## Bonus (Optional)
 
 Implement a circular queue as an First-Class ADT through the files `queue.h` and `queue.c`, and instantiate 3 queues for each message of size 10. In addition to printing, store the data in the corresponding queues. In order to get the size of GPGGA_Info_t, GNS_Info_t and GPRMC_Info_t (they are structs), use the function size(). Assume that you can use the heap, so you can use the malloc, free ecc.
 
