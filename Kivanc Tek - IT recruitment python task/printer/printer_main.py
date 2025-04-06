@@ -1,4 +1,4 @@
-PIPE_PATH = "/tmp/Policumbent_pipe"
+PIPE_PATH = "Policumbent_pipe"
 pipe = open(PIPE_PATH, "r")
 
 for message in pipe:
