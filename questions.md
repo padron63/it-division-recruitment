@@ -26,7 +26,7 @@ int main() {
     }
 }
 ```
-
+O(n^2)
 ## Question 2
 
 What is a memory leak? Explain how to correctly free memory after a dynamic
@@ -35,11 +35,14 @@ memory allocation in C
 ## Question 3
 
 What is an abstract method in OOP? How is it used?
+A method that serves as a placeholder that must be implemented by any non-abstract subclass that inherits from the abstract class. It defines a common interface 
 
 ## Question 4
 
 How is `systemd` used in most Linux systems?
+systemd is a service manager that is responsible for managing services and handling system resources
 
 ## Question 5
 
 What is a `git rebase`?
+Git command used to rewrite the commit history of a branch by moving, combining, or editing commits.
